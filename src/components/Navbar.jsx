@@ -27,13 +27,13 @@ const Navbar = () => {
     },
   ]
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white px-5 bg-black fixed'>
+    <div className='flex justify-between items-center w-full h-20 text-white px-5 bg-transparent shadow-lg fixed'>
       <div className='text-5xl ml-5  font-signature'>Wilson</div>
 
       <ul className='hidden md:flex'>
         {
           links.map(({ id, link }) => (
-            <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>{link}</li>
+            <li key={id} className='px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200'>{link}</li>
           ))
         }
       </ul>
