@@ -8,7 +8,7 @@ const Home = () => {
       md:flex-row text-white
       '>
         <div className='flex flex-col justify-center h-full'>
-          <h2 className='text-4xl sm:text-7xl font-bold'>
+          <h2 className='text-4xl sm:text-7xl font-bold mt-5'>
             I'm a Frontend Developer
           </h2>
           <p className='text-gray-200 py-3 max-w-md'>
