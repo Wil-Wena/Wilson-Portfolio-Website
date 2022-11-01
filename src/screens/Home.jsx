@@ -26,7 +26,7 @@ const Home = () => {
           </div>
         </div>
         <section>
-        <img src={HeroImage} alt='My Profile' className='rounded-2xl mx-auto w-2/3 md:w-full'></img>
+        <img src={HeroImage} alt='My Profile' className='rounded-2xl mx-auto w-2/3 md:w-full pb-8'></img>
 
         </section>
       </div>

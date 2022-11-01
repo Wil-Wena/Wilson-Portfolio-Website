@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillFilePersonFill } from 'react-icons/bs'
+import {FcGoogle} from 'react-icons/fc'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Socials = () => {
     const links = [
@@ -12,7 +12,7 @@ const Socials = () => {
                     LinkedIn <FaLinkedin size={30} color='blue' />
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/wilson-aballey-44354b1a8/',
             style: 'rounded-tr-md'
         },
         {
@@ -22,24 +22,24 @@ const Socials = () => {
                     Github <FaGithub size={30} color='black' />
                 </>
             ),
-            href: 'https://github.com',
+            href: 'https://github.com/Wil-Wena',
 
         },
         {
             id: 3,
             child: (
                 <>
-                    Gmail <HiOutlineMail size={30} color='red' />
+                    Gmail <FcGoogle size={30} />
                 </>
             ),
-            href: 'https://gmail.com',
+            href: 'https://mail.google.com/mail/u/0/#inbox',
 
         },
         {
             id: 4,
             child:(
                 <>
-                            Resume <BsFillFilePersonFill size={30} color='blue' />
+                            Resume <BsFillPersonLinesFill size={30} color='gray' />
                         </>
             ),
             href: '/Wilson_Aballey_CV.pdf',
@@ -57,7 +57,7 @@ const Socials = () => {
                         className={
                             "flex justify-between items-center w-40 h-12 px-3 ml-[-100px] hover:ml-[-4px] hover:rounded-md duration-200  bg-purple-300"
                          + " " + style} >
-                                <a href={href} className='flex justify-between items-center w-full text-white' download={download} rel="noreferrer" target="_blank">
+                                <a href={href} className='flex justify-between items-center text-violet-700 w-full ' download={download} rel="noreferrer" target="_blank">
                                     <>
                                         {child}
                                     </>
