@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
 import Portfolio from "./screens/Portfolio";
 import Experince from "./screens/Experince";
+import Contact from "./screens/Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Portfolio/>
       <Experince/>
+      <Contact/>
       <Socials/>
     </div>
   );
