@@ -72,7 +72,7 @@ const Experince = () => {
                     stacks.map(({ id, img, title, style,color }) => (
                             <div key={id} className={"shadow-lg hover:scale-105 duration-300 py-2 rounded-lg" + " " + style + " " + color}>
                                 <img src={img} alt="" size={20} className='p-2 mx-auto justify-center w-40' />
-                                <p>
+                                <p className='break-words'>
                                     {title}
                                 </p>
                             </div>
