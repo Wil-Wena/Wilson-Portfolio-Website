@@ -1,6 +1,8 @@
 import React from 'react'
 import HeroImage from "../assets/heroImage.png"
 import { FiArrowRightCircle } from "react-icons/fi"
+import { Link } from "react-scroll"
+
 const Home = () => {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b via-purple-900 from-purple-700 to-purple-400'>
@@ -16,13 +18,13 @@ const Home = () => {
             Currently, I love to work with technologies on both mobile and web. i.e. ReactJS and Flutter.
           </p>
           <div>
-            <button className='group w-fit px-6 py-3 my-2 flex items-center rounded-md 
+            <Link to='portfolio' smooth duration={500} className='group w-fit px-6 py-3 my-2 flex items-center rounded-md 
             bg-gradient-to-r from-purple-600 to-violet-500 cursor-pointer'>
               Portfolio
               <span className='ml-2 group-hover:rotate-45 duration-100'>                
                 <FiArrowRightCircle size={20}/>
               </span> 
-            </button>
+            </Link>
           </div>
         </div>
         <section>

@@ -5,7 +5,6 @@ import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
-import usestate from '../assets/portfolio/usestate.jpg'
 // import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
 
 const Portfolio = () => {
@@ -40,10 +39,8 @@ const Portfolio = () => {
 
   return (
     <div name='portfolio'
-      className='bg-purple-400 w-full text-white
-    md:h-screen'>
-      <div className='max-w-screen-lg p-4 mx-auto 
-      flex flex-col justify-center w-full h-full'>
+      className='bg-purple-400 w-full text-white '>
+      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center '>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4'>Portfolio</p>
           <p className='py-6'>Have a look at my projects</p>

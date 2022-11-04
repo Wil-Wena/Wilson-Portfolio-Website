@@ -15,7 +15,7 @@ const Contact = () => {
                                     <p className="leading-relaxed mt-1 mb-4 gray-500">
                                         Complete this form
                                     </p>
-                                    <form action="https://getform.io/f/4a85473a-91f6-4a39-88c5-53ee99aa3315" method='POST' >
+                                    <form action="https://getform.io/f/a8c097e5-6ad3-48b2-8c32-348e4add442e" method='POST' >
                                         <div className="relative w-full mb-3 mt-8">
                                             <label
                                                 className="block uppercase text-gray-600 text-xs font-bold mb-2"
