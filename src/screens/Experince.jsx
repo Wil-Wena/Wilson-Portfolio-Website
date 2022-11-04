@@ -6,6 +6,8 @@ import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import github from '../assets/github.png'
 import mysql from '../assets/my_sql.png'
+import adobe from '../assets/adobe.png'
+
 const Experince = () => {
     const stacks = [
         {
@@ -34,9 +36,9 @@ const Experince = () => {
         },
         {
             id: 5,
-            img:  flutter ,
-            title: 'FLutter',
-            style: 'shadow-blue-400'
+            img:   adobe,
+            title: 'AdobeXd',
+            style: 'shadow-pink-400'
         },
         {
             id: 6,
@@ -59,7 +61,7 @@ const Experince = () => {
         },
     ]
     return (
-        <div name='experince' className='bg-purple-500 w-full h-screen'>
+        <div name="tech stacks" className='bg-purple-500 w-full h-screen'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
                 <div>
@@ -70,7 +72,8 @@ const Experince = () => {
 
                 {
                     stacks.map(({ id, img, title, style,color }) => (
-                            <div key={id} className={"shadow-lg hover:scale-105 duration-300 py-2 rounded-lg" +  style +  color}>
+                        //eslint-disable-next-line
+                            <div key={id} className={"shadow-lg hover:scale-105 duration-300 py-2 rounded-lg" + " "+ style + " " + color}>
                                 <img src={img} alt="" size={20} className='p-2 mx-auto justify-center w-40' />
                                 <p className='break-words'>
                                     {title}
