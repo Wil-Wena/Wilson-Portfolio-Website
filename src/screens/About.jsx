@@ -12,11 +12,7 @@ const About = () => {
                     labore accusamus odio.
                             </p>
                 <br />
-                {/* <p className='text-xl sm:pb-10'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores, qui, similique quibusdam iusto aperiam dolorem ea praesentium assumenda impedit, hic deserunt! Deleniti illum, pariatur modi placeat voluptatem facilis perspiciatis.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium sunt enim tempora id, quis reiciendis velit hic doloremque! Veritatis eos quaerat, error quis atque quam dolores earum. Qui, obcaecati a.
-
-                </p> */}
+              
 
             </div>
 
